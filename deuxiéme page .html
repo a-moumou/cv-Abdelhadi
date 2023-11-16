@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deuxiéme page </title>
+    <link rel="stylesheet" href="deuxiéme page.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body background="https://www.code-couleur.com/images/main/bleu-roi-mur-brique.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <div class="container-fluid">
+        <div class="navbar">
+            <h1> Abdelhadi MOUMOU</h1>
+            <a href="deuxiéme page .html">Contactez-moi</a>
+            
+        </div>
+    </div> 
+
+    <form action="process_form.php" method="post">
+
+        <label for="prenom">Prénom :</label><br>
+        <input class="xx" type="text" id="prenom" name="prenom" required>
+
+        <br>
+
+        <label for="nom">Nom :</label><br>
+        <input class="xx" type="text" id="nom" name="nom" required>
+
+        <br>
+
+        <label for="mail">E-mail :</label><br>
+        <input class="xx" type="email" id="mail" name="mail" required>
+
+        <br>
+
+        <label for="numero">Numéro de téléphone :</label><br>
+        <input class="xx" type="tel" id="numero" name="numero" required>
+
+        <br>
+
+        <label for="raison">Raison du message :</label><br>
+        <select class="xx" id="raison" name="raison" required>
+            <option value="question">Question</option>
+            <option value="commentaire">Commentaire</option>
+            <option value="probleme">Problème</option>
+            <option value="autre">Autre</option>
+        </select>
+
+        <br>
+
+        <label for="message">Message :</label><br>
+        <textarea class="xx" id="message" name="message" rows="4" required></textarea>
+
+        <br>
+
+        <input id="gg" type="submit" value="Envoyer">
+
+    </form>
+</body>
+</html>
